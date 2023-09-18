@@ -1,0 +1,25 @@
+{
+  "name": "monitor-blocks-for-remarks",
+  "version": "1.0.0",
+  "description": "Monitor a provider for system.remark extrinsics in blocks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node monitor-blocks.js"
+  },
+  "keywords": [],
+  "author": "wi_ry_",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi-ry/Creditcoin-MonitorBlocksForRemarks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wi-ry/Creditcoin-MonitorBlocksForRemarks/issues"
+  },
+  "homepage": "https://github.com/wi-ry/Creditcoin-MonitorBlocksForRemarks#readme",
+  "type": "module",
+  "dependencies": {
+    "@polkadot/api": "^10.9.1",
+    "file-type": "^18.5.0"
+  }
+}
